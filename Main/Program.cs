@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Main.Forms;
+using System;
 using System.Windows.Forms;
 
 namespace Main {
@@ -13,7 +14,8 @@ namespace Main {
 			Application.SetCompatibleTextRenderingDefault(false);
 
 			// var user = new User();
-			Application.Run();
+
+			Application.Run(new Form1());
 		}
 	}
 }

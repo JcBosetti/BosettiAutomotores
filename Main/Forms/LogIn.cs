@@ -13,5 +13,16 @@ namespace Main.Forms {
 		public LogIn() {
 			InitializeComponent();
 		}
-	}
+
+        private void LogInForm()
+        {
+            pictureBoxLogin.Image = Image.FromFile(@"Assets\LogIn.gif");
+        }
+            
+
+        private void buttonLog_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

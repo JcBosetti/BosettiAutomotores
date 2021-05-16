@@ -69,11 +69,11 @@
     <Compile Include="Forms\Clients.Designer.cs">
       <DependentUpon>Clients.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Home.cs">
+    <Compile Include="Forms\Proveedores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Home.Designer.cs">
-      <DependentUpon>Home.cs</DependentUpon>
+    <Compile Include="Forms\Proveedores.Designer.cs">
+      <DependentUpon>Proveedores.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\LogIn.cs">
       <SubType>Form</SubType>
@@ -81,11 +81,11 @@
     <Compile Include="Forms\LogIn.Designer.cs">
       <DependentUpon>LogIn.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Models.cs">
+    <Compile Include="Forms\Personal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Models.Designer.cs">
-      <DependentUpon>Models.cs</DependentUpon>
+    <Compile Include="Forms\Personal.Designer.cs">
+      <DependentUpon>Personal.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\OrderNotes.cs">
       <SubType>Form</SubType>
@@ -93,11 +93,11 @@
     <Compile Include="Forms\OrderNotes.Designer.cs">
       <DependentUpon>OrderNotes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\PurchaseInvoices.cs">
+    <Compile Include="Forms\Estadisticas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\PurchaseInvoices.Designer.cs">
-      <DependentUpon>PurchaseInvoices.cs</DependentUpon>
+    <Compile Include="Forms\Estadisticas.Designer.cs">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\ServiceInvoices.cs">
       <SubType>Form</SubType>
@@ -105,17 +105,17 @@
     <Compile Include="Forms\ServiceInvoices.Designer.cs">
       <DependentUpon>ServiceInvoices.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Services.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Services.Designer.cs">
-      <DependentUpon>Services.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\ServiceTypes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\ServiceTypes.Designer.cs">
       <DependentUpon>ServiceTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stock.Designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Tools.cs">
       <SubType>Form</SubType>
@@ -123,16 +123,37 @@
     <Compile Include="Forms\Tools.Designer.cs">
       <DependentUpon>Tools.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Vendors.cs">
+    <Compile Include="Forms\Ventas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Vendors.Designer.cs">
-      <DependentUpon>Vendors.cs</DependentUpon>
+    <Compile Include="Forms\Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Estadisticas.resx">
+      <DependentUpon>Estadisticas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Personal.resx">
+      <DependentUpon>Personal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Proveedores.resx">
+      <DependentUpon>Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ServiceInvoices.resx">
+      <DependentUpon>ServiceInvoices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -142,6 +163,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -168,35 +190,77 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\BotonRojo 40x40px.png" />
+    <None Include="Resources\GenaroFondo.png" />
+    <None Include="Resources\EstadisticasBanner.gif" />
+    <None Include="Resources\ButMenosEmpleado.png" />
+    <None Include="Resources\ButMasEmpleados.png" />
+    <None Include="Resources\ButCambioEmpleado.png" />
+    <None Include="Resources\ButNotaDePedido.png" />
+    <None Include="Resources\ButProveedo.png" />
+    <None Include="Resources\ButRegistrarFacturaDeCompras2.png" />
+    <None Include="Resources\ButRegistrarFacturaDeCompras1.png" />
+    <None Include="Resources\ButRegistrarFacturaDeCompras.png" />
+    <None Include="Resources\ButClientes.png" />
+    <None Include="Resources\ButHistorial.png" />
+    <None Include="Resources\ButPresupuesto.png" />
+    <None Include="Resources\ButFactura.png" />
+    <None Include="Resources\ButGestorAlerta.png" />
+    <None Include="Resources\ButGestionarInsumos.png" />
+    <None Include="Resources\ButInventarioVer.png" />
+    <None Include="Resources\ButGestionInventario.png" />
+    <None Include="Assets\ButDiagnostico.png" />
+    <None Include="Assets\ButTrabajos.png" />
+    <None Include="Assets\ButFacturar.png" />
+    <None Include="Assets\ButActualizar.png" />
     <Content Include="Assets\Clean 24px.png" />
     <Content Include="Assets\Compras 48px.png" />
     <Content Include="Assets\Contraer.png" />
     <Content Include="Assets\Create 24px.png" />
     <Content Include="Assets\Empleados 48px.png" />
     <Content Include="Assets\empleados.png" />
+    <None Include="Assets\VentasTp.png" />
+    <None Include="Assets\EmpleadoTp.png" />
     <Content Include="Assets\exit.png" />
     <Content Include="Assets\Expandir.png" />
+    <None Include="Assets\Facturación Banner.gif" />
     <Content Include="Assets\FlechaAtras.png" />
     <Content Include="Assets\FondoPrincipal.png" />
     <Content Include="Assets\FondoPrincipal1.png" />
     <Content Include="Assets\graficas Con Texto.gif" />
     <Content Include="Assets\graficas.gif" />
     <Content Include="Assets\graficas.png" />
+    <None Include="Resources\VentasTp.png" />
+    <None Include="Resources\EmpleadoTp.png" />
+    <None Include="Assets\iconUserWhite.png" />
+    <None Include="Assets\GraficasTp.png" />
     <Content Include="Assets\imageonline-co-whitebackgroundremoved %281%29.png" />
     <Content Include="Assets\inventario.png" />
+    <None Include="Assets\inventarioTp.png" />
     <Content Include="Assets\LogA.png" />
+    <None Include="Resources\iconfinder_icons_password_1564520.png" />
+    <None Include="Assets\LogIn.gif" />
+    <None Include="Assets\LogButton.png" />
     <Content Include="Assets\Logo 128px.png" />
     <Content Include="Assets\MenuLateral.png" />
+    <None Include="Assets\passWhite.png" />
     <Content Include="Assets\personal.gif" />
+    <None Include="Assets\PersonalBanner.gif" />
     <Content Include="Assets\proveedores.png" />
+    <None Include="Assets\ProveedoresTp.png" />
+    <None Include="Assets\ProveedoresBanner.gif" />
     <Content Include="Assets\ReTool 32px.png" />
     <Content Include="Assets\Salida 48px.png" />
     <Content Include="Assets\Search 32px.png" />
+    <None Include="Assets\Service Banner.png" />
     <Content Include="Assets\service color.png" />
     <Content Include="Assets\service color1.png" />
     <Content Include="Assets\service.png" />
+    <None Include="Assets\ServiceBanner.gif" />
     <Content Include="Assets\ServiceSeleccionado.jpeg" />
+    <None Include="Assets\ServiceTp.png" />
+    <None Include="Assets\Stock Banner.gif" />
     <Content Include="Assets\TrashCan 24px.png" />
+    <None Include="Assets\userP.png" />
     <Content Include="Assets\UserProfile 32px.png" />
     <Content Include="Assets\Usuario 32px.png" />
     <Content Include="Assets\Usuarios 64px.png" />

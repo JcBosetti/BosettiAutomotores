@@ -9,3 +9,10 @@ C:\Users\ignaz\source\repos\BosettiAutomotores\DataAccessLayer\bin\Debug\Main.ex
 C:\Users\ignaz\source\repos\BosettiAutomotores\DataAccessLayer\bin\Debug\Main.pdb
 C:\Users\ignaz\source\repos\BosettiAutomotores\DataAccessLayer\bin\Debug\Main.exe.config
 C:\Users\ignaz\source\repos\BosettiAutomotores\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

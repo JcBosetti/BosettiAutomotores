@@ -4,3 +4,9 @@ C:\Users\ignaz\source\repos\BosettiAutomotores\Utilities\obj\Debug\Utilities.csp
 C:\Users\ignaz\source\repos\BosettiAutomotores\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
 C:\Users\ignaz\source\repos\BosettiAutomotores\Utilities\obj\Debug\Utilities.dll
 C:\Users\ignaz\source\repos\BosettiAutomotores\Utilities\obj\Debug\Utilities.pdb
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Utilities\bin\Debug\Utilities.dll
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Utilities\bin\Debug\Utilities.pdb
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Utilities\obj\Debug\Utilities.dll
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Utilities\obj\Debug\Utilities.pdb
